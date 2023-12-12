@@ -1,0 +1,100 @@
+div.digiplus{
+    width:97%;
+    height:400px;
+    margin:20px;
+    position: relative;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: white;
+    background-color:rgb(148,27,128);
+    display: inline-block;
+    cursor: pointer;
+}
+div.digiplus>div:nth-of-type(1){
+    display: inline-block;
+    width:38%;
+    height: inherit;
+}
+div.digiplus>div:nth-of-type(1)>img{
+    position: absolute;
+    top: 30px;
+    right:45px;
+}
+div.digiplus>div:nth-of-type(1)>p{
+    position: absolute;
+    top:75px;
+    right: 45px;
+}
+div.digiplus>div:nth-of-type(1)>div{
+    width:120px;
+    height:40px;
+    position: absolute;
+    top: 115px;
+    right:45px;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius:5px;
+    background-color:transparent;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+div.digiplus>div:nth-of-type(1)>div>p{
+    line-height:40px;
+    margin: 0 20px;
+}
+div.digiplus>div:nth-of-type(1)>div>svg{
+    position: absolute;
+    top:10px;
+    right:80px;
+}
+div.digiplus>div:nth-of-type(1)>img:nth-of-type(2){
+    width:430px;
+    height: 300px;
+    position: absolute;
+    top:100px;
+}
+div.digiplus>div:nth-of-type(2){
+    display: inline-block;
+    width:60%;
+    height:370px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:15px;
+    color: rgb(15, 14, 14);
+    border-radius:12px;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
+}
+div.digiplus>div:nth-of-type(2)>div:nth-of-type(1){
+    width: 100%;
+    height:60px;
+}
+div.digiplus>div:nth-of-type(2)>div>svg{
+    position: absolute;
+    right:20px;
+    top:20px;
+}
+div.digiplus>div:nth-of-type(2)>div>b>p{
+    position: absolute;
+    right:50px;
+    top:20px;
+    font-size:18px;
+}
+div.digiplus>div:nth-of-type(2)>div>p{
+    position: absolute;
+    left:40px;
+    top:20px;
+    font-size: 14px;
+    color: rgb(148,27,128);
+}
+div.digiplus>div:nth-of-type(2)>div>img{
+    width: 140px;
+    height: 140px;
+    margin:2px;
+}

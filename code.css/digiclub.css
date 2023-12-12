@@ -1,0 +1,48 @@
+div.digiclub{
+    width: 97%;
+    height: 120px;
+    background-image: linear-gradient( to left , rgb(0,114,149) , rgb(43,156,191));
+    margin:10px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+div.digiclub>div{
+    width:320px;
+    height: 80px;
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    right: calc(97% / 4 - 90px);
+    top: calc(120px / 4 - 12px);
+}
+div.digiclub>div:nth-of-type(1){
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+div.digiclub>div:nth-of-type(3){
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+div.digiclub>img:nth-of-type(1){
+    margin-right: 50px;
+}
+div.digiclub>div>img{
+    width:180px;
+    height:77px;
+    position: absolute;
+    bottom:2px;
+    left:2px; 
+}
+div.digiclub>div>p{
+    position: absolute;
+    top:30px;
+    right:50px;
+}
+div.digiclub>div>svg{
+    position: absolute;
+    top:30px;
+    right:20px;
+}
