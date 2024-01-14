@@ -1,0 +1,106 @@
+div.porfrosh{
+    width:97%;
+    height:460px;
+    border: 1px solid rgb(211, 211, 211);
+    margin:auto 20px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    margin-bottom:50px;
+}
+div.porfrosh>div:nth-of-type(1){
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    line-height:40px;
+}
+div.porfrosh>div:nth-of-type(1)>b>p{
+    font-size:18px;
+}
+div.porfrosh>div:nth-of-type(1)>b>p>svg{
+    position: absolute;
+    top:10px;
+    margin-right: -35px;
+}
+div.porfrosh>div:nth-of-type(1)>p{
+    position: absolute;
+    left: 30px;
+    top:5px;
+    font-size: 16px;
+    color:#59D1DF;
+    cursor: pointer;
+}
+div.porfrosh div.swiper{
+    width:96%;
+    height:350px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ div.porfrosh div.swiper-slide {
+    text-align: center;
+    height:32%!important;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+div.porfrosh div.swiper-slide img{
+    width:80px;
+    height:80px;
+    position: absolute;
+    right:10px;
+}
+div.porfrosh div.swiper-slide span{
+    position: absolute;
+    right: 100px;
+    font-size:32px;
+    color:rgb(25, 191, 211);
+}
+div.porfrosh div.swiper-slide div{
+    width:67%;
+    height:80px;
+    line-height:40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: rgb(112, 112, 112);
+    border-bottom: 1px solid rgb(210, 210, 210);
+    text-align: right;
+}
+div.porfrosh div.swiper-slide p {
+    position: absolute;
+    right:20px;
+    font-size: 13px;
+}
+div.porfrosh div.swiper-slide:nth-of-type(1) div{
+    line-height: 28px;
+}
+div.porfrosh div.swiper-slide:nth-of-type(9) div{
+    line-height: 28px;
+}
+div.porfrosh div.swiper-slide:nth-of-type(13) div{
+    line-height: 25px;
+}
+div.porfrosh div.swiper-slide:nth-of-type(14) div{
+    line-height: 25px;
+}
+div.porfrosh div.swiper-slide:nth-of-type(15) div{
+    border: none;
+}
+div.porfrosh div.swiper-slide:nth-of-type(16) div{
+    border: none;
+}
+div.porfrosh div.swiper-slide:nth-of-type(17) div{
+    border: none;
+}
+div.porfrosh div.swiper-slide:nth-of-type(18) div{
+    position: absolute;
+    top: 35px;
+    border: none;
+}

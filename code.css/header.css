@@ -1,0 +1,201 @@
+/* قسمت هدر سایت که بخش سرچ و ورود ثبت نام به دو تا بخش تقسیم شده و جدا گانه استایل دهی شده*/
+header{
+    width: 100%;
+    height:174px;
+    box-shadow: 1px 1px rgb(211, 211, 211);
+    background-color: white;
+    position:sticky;
+    top: 0;
+    z-index:2;
+}
+/*قسمتی که دیو سرچ و ورود ثبت نام قرار دارد*/
+div.header{
+    width: 100%;
+    height:130px;
+}
+/*بنر بالای سایت*/
+div.baner>a>img{
+    width: 100%;
+    height: 60px;
+    object-fit:cover;
+}
+/*div.container=لوگو و دیو سرچ */
+div.header>div.container{
+    width: 50%;
+    height:70px;
+    position: relative;
+    display: inline-block;
+}
+/*استایل های لوگو*/
+div.header>div.container>a.logo{
+    background: url(../imge/logo.svg) no-repeat center;
+    background-size: contain;
+    display:inline-block;
+    margin:8px 14px 0 14px;
+    width:15%;
+    height:50px;
+}
+/*استایل های دیو سرچ*/
+div.header>div.container>input{
+    position: absolute;
+    top: 10px;
+    background-color: #f0f0f1;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width:75%;
+    height:45px;
+    padding: 14px 55px 13px 14px;
+}
+div.header>div.container>svg{
+    position: absolute;
+    right:165px;
+    top:20px;
+    z-index:1;
+}
+/*استایل های دیو ورود و ثبت نام=div.container2*/
+div.container2{
+    width:10.5%;
+    height: 45px;
+    display: inline-block;
+    position: absolute;
+    left:140px;
+    top:75px;
+    border:#c6c6c8 solid 1px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+div.container2>a>input{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    width: 60%;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top:6px;
+    cursor: pointer;
+}
+div.container2>a>svg{
+    position: absolute;
+    right:15px;
+    top: 9px;
+}
+div.header>div.container2>a>input::placeholder{
+    font-size:13px;
+    text-align: center;
+    color: #1a1919;
+}
+/*svg.cart=سبد خرید*/
+svg.cart{
+    position: absolute;
+    left:20px;
+    top:85px;
+    width:5%;
+    border-right: #c6c6c8 solid 1px;
+    cursor: pointer;
+}
+/*استایل های منو خطی دیجی کالا*/
+nav>div.container{
+    position: absolute;
+    top:125px;
+    display:inline-block;
+    width:70%;
+    height:48px;
+}
+nav>div.container>ul>li{
+    display: inline-block;
+    font-size: 12px;
+    line-height:48px;
+    color: rgb(98, 98, 98);
+    cursor: pointer;
+}
+/*استایل دسته بندی کالا و ایکونش*/
+nav>div.container>ul>li.daste{
+    display: inline-block;
+    width:15%;
+    height:18px;
+}
+nav>div.container>ul>svg:nth-of-type(1){
+    position: absolute;
+    top:13px;
+    right:30px;
+}
+nav>div.container>ul>li.daste>p{
+    font-size: 14px;
+    color:rgb(63, 64, 100);
+    margin-right:65px;
+}
+/*استایل شگفت انگیز و ایکونش*/
+nav>div.container>ul>li:nth-of-type(2){
+    position: absolute;
+    right:230px;
+    top:0;
+}
+nav>div.container>ul>svg:nth-of-type(2){
+    border-right: #c6c6c8 solid 1px;
+    position: absolute;
+    top:14px;
+    right:190px;
+    width: 3%;
+}
+/*استایل سوپرمارکت و ایکونش*/
+nav>div.container>ul>li:nth-of-type(3){
+    position: absolute;
+    right:350px;
+    top: 0;
+}
+nav>div.container>ul>svg:nth-of-type(3){
+    position: absolute;
+    top:14px;
+    right:327px;
+}
+/*استایل کارت هدیه و ایکونش*/
+nav>div.container>ul>li:nth-of-type(4){
+    position: absolute;
+    right:450px;
+    top: 0;
+}
+nav>div.container>ul>svg:nth-of-type(4){
+    position: absolute;
+    top:14px;
+    right:427px;
+}
+/*استایل پرفروش ترین ها با ایکونش*/
+nav>div.container>ul>li:nth-of-type(5){
+    position: absolute;
+    right:550px;
+    top: 0;
+}
+nav>div.container>ul>svg:nth-of-type(5){
+    position: absolute;
+    top:14px;
+    right:527px;
+}
+/*استایل تخفیف ها با ایکونش*/
+nav>div.container>ul>li:nth-of-type(6){
+    position: absolute;
+    width:13%;
+    height:18px;
+    right:675px;
+    top:15px;
+    line-height: 18px;
+    border-left:1px solid #c6c6c8;
+}
+nav>div.container>ul>svg:nth-of-type(6){
+    position: absolute;
+    top:15px;
+    right:653px;
+}
+/*استایل سوال بپرسید*/
+nav>div.container>ul>li:nth-of-type(7){
+    position: absolute;
+    right:835px;
+    top: 0;
+}
+/*استایل در دیجی کالا بفروشید*/
+nav>div.container>ul>li:nth-of-type(8){
+    position: absolute;
+    right:925px;
+    top: 0;
+}

@@ -1,0 +1,43 @@
+div.swipercontainer{
+    width: 100%;
+    height:430px;
+    overflow: hidden;
+    display: block;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background:#eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+/**/
+
+div.containerswiper>div.swiper{
+    width:99.80%;
+    height:270px;
+    position: absolute;
+    top:13px;
+    border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    -ms-border-radius:7px;
+    -o-border-radius:7px;
+}
+.swiper-slide{
+    line-height:250px;
+    text-align: center;
+    background-color: white;
+}

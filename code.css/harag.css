@@ -1,0 +1,93 @@
+div.harag{
+    width: 97%;
+    height:976px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 20px;
+    margin:20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+div.harag>div:nth-of-type(1){
+    width: 100%;
+    height:90px;
+    text-align: center;
+    line-height:80px;
+    font-size: 22px;
+    position: relative;
+}
+div.harag>div:nth-of-type(1)>b>p>svg{
+    position: absolute;
+    top:26px;
+    right:550px;
+}
+div.harag>div:nth-of-type(2){
+    width:98%;
+    height:888px;
+    margin-right:15px;
+}
+div.harag>div:nth-of-type(2)>div{
+    width: 100%;
+    height: 295px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+div.harag>div:nth-of-type(2)>div>div{
+    width:calc(100% / 6);
+    height:295px;
+    margin-left:-4px;
+    border-left: 1px solid rgb(211, 211, 211);
+    display: inline-block;
+    position: relative;
+}
+div.harag>div:nth-of-type(2)>div:nth-last-of-type(1){
+    border-bottom: none;
+}
+div.harag>div:nth-of-type(2)>div>div:nth-last-of-type(1){
+    border-left: none;
+}
+div.harag>div:nth-of-type(2)>div>div>img{
+    width:160px;
+    height:160px;
+    margin:10px 40px;
+}
+div.harag>div:nth-of-type(2)>div>div>div.takhfif{
+    width:45px;
+    height:22px;
+    font-size:15px; 
+    background-color:#fb2c44;
+    display: inline-block;
+    position: absolute;
+    top:210px;
+    right: 10px;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+}
+div.harag>div:nth-of-type(2)>div>div>div.takhfif>p{
+    font-size:16px;
+    color: white;
+    line-height:24px;
+    text-align: center;
+}
+div.harag>div:nth-of-type(2)>div>div>b>p{
+    position: absolute;
+    bottom:64px;
+    left:55px;
+    color:rgb(63, 64, 100);
+    font-size:16px;
+}
+div.harag>div:nth-of-type(2)>div>div>p{
+    position: absolute;
+    bottom:40px;
+    left:55px;
+    font-size:13px;
+    color:rgb(171, 171, 171);
+}
+div.harag>div:nth-of-type(2)>div>div>svg{
+    position: absolute;
+    left: 20px;
+    bottom:64px;
+}

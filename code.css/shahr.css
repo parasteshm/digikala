@@ -1,0 +1,155 @@
+div.map>svg{
+    margin-left:10px;
+    margin-top:4px;
+}
+/*div.mshow= اون بک گراند مشکی که وقتی شهر هاور میشه*/
+div.map>div.mshow{
+    width:99.4vw;
+    height:100vh;
+    background-color: rgba(50, 50, 50, 0.636);
+    position:absolute ;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index:2;
+}
+/*div map = منظور همون قسمت شهر و استان سایت هستن */
+div.map>svg:nth-of-type(1){
+    position: absolute;
+    top:142px;
+    left:183px;
+    z-index:1;
+}
+#show{
+    display: none;
+}
+div.map>#show:checked~div.mshow{
+    display: inline-block;
+}
+label[for = show]{
+    cursor: pointer;
+    font-size: 13px;
+    position: absolute;
+    top:145px;
+    left: 30px;
+    z-index:1;
+}
+div.map>#show:checked~label[for = hide]{
+    display:inline-block;
+}
+#hide{
+    display: none;
+}
+label[for = hide]{
+    cursor: pointer;
+    font-size: 13px;
+    width: 3%;
+    height:10px;
+    display:none;
+    position: absolute;
+    top:85px;
+    left:550px;
+    z-index:3;
+}
+label[for = show]~input{
+    font-size: 13px;
+    position: absolute;
+    top:147px;
+    left:190px;
+    z-index:3;
+}
+/*div.mshow= پدر یوال و ال ای شهر */
+div.mshow{
+    position:relative;
+}
+/* استایل یوال شهر*/
+div.mshow>ul{
+    list-style: none;
+    width:30%;
+    height:600px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:69px;
+    right:520px;
+    border-radius:12px;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
+    cursor: pointer;
+}
+/*انتخاب شهر*/
+div.mshow>ul>li:nth-of-type(1){
+    border-bottom:1px solid #e5e5e6;
+    width:27%;
+    height:55px;
+    margin-right:20px;
+    z-index:2;
+    position: fixed;
+}
+/*وقتی دیو شهر هاور میشه زیرش یه دیو دیگه میاد که بک گراند بنفش داره*/
+div.mhover{
+    width:11.5%;
+    height:44px;
+    background-color:rgb(63, 64, 100);
+    font-size:13px;
+    position:absolute;
+    top:170px;
+    left:30px;
+    display: none;
+    border-radius:5px;
+}
+div.mhover>p{
+    color: white;
+    position: absolute;
+    left:5px;
+    line-height:3.5;
+}
+label[for = show]:hover~div.mhover{
+    display: inline-block;
+}
+div.mshow>ul>li>p{
+    position: absolute;
+    top:10px;
+    margin:10px 20px 0 0;
+}
+/*ایکون و مکان یابی خودکار*/
+div.mshow>ul>div>div{
+    width: 100%;
+    height:70px;
+    color: #1fc0d4;
+}
+div.mshow>ul>div>div>li{
+    position: absolute;
+    top:27px;
+    right:65px;
+}
+div.mshow>ul>div>div>svg{
+    position: absolute;
+    top:27px;
+    right:25px;
+}
+/*دیو شهرها*/
+div.mshow>ul>div{
+    width: 100%;
+    height:550px;
+    overflow: auto;
+    position: absolute;
+    bottom:0;
+}
+/*استایل ال ای شهرها*/
+div.mshow>ul>div>li{
+    border-bottom:1px solid #e5e5e6;
+    color: #3f4064;
+    height:45px;
+    margin: 10px 15px;
+}
+div.mshow>ul>div>li:nth-last-of-type(1){
+    border: none;
+}
+/*استایل(>)که کنار هر شهر*/
+ul>div>li>p{
+    position: absolute;
+    left:23px;
+    margin:-20px 20px 0 0;
+}
